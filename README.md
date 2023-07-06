@@ -1,3 +1,5 @@
+### Помощник в отправке сообщений через Rabbit.
+
 1. В [env.example](https://github.com/vladkondakov/rabbitmq-helper/blob/master/.env.example) находятся нужные переменные окружения. Создать файл .env и положить их в него, задав значения.
 
 2. Запуск npm run start:dev
