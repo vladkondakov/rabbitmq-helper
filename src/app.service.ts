@@ -18,6 +18,7 @@ export class AppService {
       await this.amqpConnection.publish(exchange, routingKey, msg);
     } catch (err) {
       this.logger.error('Some error on publishing message');
+      this.logger.error(err);
     }
   }
 }
